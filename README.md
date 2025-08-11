@@ -54,10 +54,12 @@ trigger the DAG via Airflow UI or CLI:
 ```bash
 airflow dags trigger mysql_extract_pipeline
 ```
+---
 ### 🧪Testing
 ```bash
 pytest tests/
 ```
+---
 ## 📚 Technologies Used
 ### Python
 Used for scripting ETL processes, data cleaning, and integration with databases and APIs. Libraries like pandas, sqlalchemy, and mysql-connector-python are used for data manipulation and connectivity.
@@ -72,5 +74,6 @@ These databases serve as data sources:
 ### ❄️ Snowflake
 Cloud-based data warehouse used as the destination for transformed data. DBT models are executed here to create analytics-ready datasets.
 
+---
 ## 👨‍💻 Author
 Muhammad Thariq Trikusuma
