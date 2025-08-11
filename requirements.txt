@@ -1,0 +1,30 @@
+# Core Python Libraries
+pandas==2.2.1
+python-dotenv==1.0.1
+
+# Database Connectors
+mysql-connector-python==8.3.0
+psycopg2-binary==2.9.9
+pymongo==4.7.2
+sqlalchemy==2.0.23
+
+# Snowflake Connector
+snowflake-connector-python==3.10.0
+snowflake-sqlalchemy==1.5.0
+
+# Apache Airflow
+apache-airflow==2.9.0
+apache-airflow-providers-mysql==4.3.0
+apache-airflow-providers-postgres==5.3.0
+apache-airflow-providers-mongo==3.1.0
+apache-airflow-providers-snowflake==4.3.0
+
+# DBT (installed separately via CLI or dbt-core)
+dbt-core==1.7.12
+dbt-snowflake==1.7.12
+
+# Testing
+pytest==8.2.2
+
+# Optional: Logging and Monitoring
+loguru==0.7.2
